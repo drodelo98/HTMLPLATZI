@@ -2,13 +2,28 @@
 
 body{
     text-align: center;
+    font-family: arial;
 }
 
 img{
-    width: 100px;
-    height: 100px;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px  rgb(63, 58, 58);
+    border: 1px solid rgb(63, 58, 58);
 }
 
 #lista{
     display: inline-block;
+    
+}
+
+#grupo-lista{
+    background-color: rgb(247, 244, 244);
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+    border: 3px solid rgb(63, 58, 58);
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px  rgb(63, 58, 58);
 }
