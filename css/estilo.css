@@ -41,7 +41,7 @@ h1{
 }
 .main-nav__menu{
     display: inline-block;
-    float:right;  
+    float: right;  
 }
 
 .main-nav__item a{
@@ -69,8 +69,7 @@ h1{
     margin-right: auto;
     margin-left: auto;  
     margin-bottom: 2rem;
-    border-radius: 1.2rem;
-      
+    border-radius: 1.2rem;     
 }
 
 .grupo-lista{
@@ -82,8 +81,7 @@ h1{
     margin-left: auto;
     margin-bottom: 1rem;
     width: 80%;
-    border-radius: 25px;
-    
+    border-radius: 25px;   
 }
 
 .ingrediente{
@@ -112,5 +110,4 @@ h1{
     text-decoration: none;
     color: black;
 }
-
 
