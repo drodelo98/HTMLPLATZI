@@ -1,10 +1,11 @@
-
-
 body{
-    color: #081c15;
-    text-align: center;
+    color: #081c15;   
     font-family: arial;
     background-color: #52b788;
+}
+
+h1{
+    text-align: center;
 }
 
 img{
@@ -16,24 +17,36 @@ img{
 }
 
 img:hover{
-    width: 11rem;
-    height: 11rem;
+    
+    width: 9rem;
+    height: 9rem;
     border-radius: 2rem;
     box-shadow: 0px 0px 50px #1b4332; 
     margin: 20px;
 }
 
-#lista{
+.ingrediente{
     display: inline-block;
-    
+    width: 30%;
 }
 
 #grupo-lista{
+    text-align: center;
     background-color: #d8f3dc;
     margin-right: auto;
     margin-left: auto;
-    width: 60%;    
+    width: 80%;
     border-radius: 25px;
     box-shadow: 0px 0px 50px #1b4332;
-¿
+}
+
+#formulario{
+    text-align: center;
+    background-color: #d8f3dc;
+    margin-right: auto;
+    margin-left: auto;  
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 50px #1b4332;
+    padding: 1em;
 }
