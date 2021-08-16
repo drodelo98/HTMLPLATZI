@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+}
+
+
 body{
     color: #081c15;   
     font-family: arial;
@@ -71,16 +76,21 @@ h1{
 .ingrediente img{
     width: 11rem;
     height: 11rem;
-    border-radius: 2rem;
+    border-radius: 5.5rem;
     box-shadow: 0px 0px 50px grey; 
     margin: 20px;  
 }
 .ingrediente img:hover{  
-    width: 9rem;
-    height: 9rem;
-    border-radius: 2rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5rem;
     box-shadow: 0px 0px 50px grey; 
     margin: 20px;
+}
+
+.ingrediente a{
+    text-decoration: none;
+    color: black;
 }
 
 
