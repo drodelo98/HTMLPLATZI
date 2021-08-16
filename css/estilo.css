@@ -1,3 +1,7 @@
+html{
+    font-size: 62.5%;
+}
+
 *{
     box-sizing: border-box;
 }
@@ -6,6 +10,7 @@
 body{
     color: #081c15;   
     font-family: arial;
+    font-size: 1.6rem;
     background-color: #74C69D;
     margin: 0;
 }
@@ -17,55 +22,68 @@ h1{
 
 .main-nav{
     list-style: none;
+    padding: 1rem;
     margin-top: 0;
-    padding-left: 0px;
     margin-right: 0px;
-    padding-top: 3px;
     margin-left: 0px;
-    margin-bottom: 1em;
-    background-color: rgb(86, 171, 145);
-    
+    margin-bottom: 1rem;
+    background-color: rgb(86, 171, 145);   
 }
 
 .main-nav__item{
     display: inline-block;
+    margin-top: 1rem;
+}
+
+.main-titulo{
+    margin-top: 1rem;
+    
+}
+.main-nav__menu{
+    display: inline-block;
+    float:right;  
 }
 
 .main-nav__item a{
     color: white;
-    padding: 5px;
+    padding: 1rem;
+    margin: 1rem;
     text-decoration: none;
 }
 
 .main-nav__item a:hover{
     color: white;
-    padding: 5px;
+    padding: 1rem;
+    margin: 1rem;
     text-decoration: none;
-    border: 1px solid white;
+    outline:  solid white;
+    outline-offset: 4px;
 }
 
-#formulario{
+.form{
     width: 80%;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     text-align: center;
     background-color: #c7f9cc;
     margin-right: auto;
     margin-left: auto;  
-    margin-bottom: 20px;
-    border-radius: 12px;
-    box-shadow: 0px 0px 50px #081C15;  
+    margin-bottom: 2rem;
+    border-radius: 1.2rem;
+      
 }
 
 .grupo-lista{
+    padding: 1rem;
     text-align: center;
     background-color: #c7f9cc;
+    box-shadow: 0px 0px 50px #081C15;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
     width: 80%;
     border-radius: 25px;
-    box-shadow: 0px 0px 50px #081C15;
+    
 }
 
 .ingrediente{
@@ -74,16 +92,18 @@ h1{
 }
 
 .ingrediente img{
-    width: 11rem;
-    height: 11rem;
-    border-radius: 5.5rem;
-    box-shadow: 0px 0px 50px grey; 
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10rem;
+    box-shadow: 0px 0px 50px rgb(158, 158, 158); 
     margin: 20px;  
 }
 .ingrediente img:hover{  
-    width: 10rem;
-    height: 10rem;
-    border-radius: 5rem;
+    position: relative;
+    top: -1rem;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10rem;
     box-shadow: 0px 0px 50px grey; 
     margin: 20px;
 }
