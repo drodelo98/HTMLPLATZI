@@ -1,28 +1,66 @@
 body{
     color: #081c15;   
     font-family: arial;
-    background-color: #52b788;
+    background-color: #74C69D;
+    margin: 0;
 }
 
 h1{
-    text-align: center;
+    margin-top: 0;
+    display: inline-block;
 }
 
-img{
-    width: 11rem;
-    height: 11rem;
-    border-radius: 2rem;
-    box-shadow: 0px 0px 50px #2d6a4f; 
-    margin: 20px;   
-}
-
-img:hover{
+.main-nav{
+    list-style: none;
+    margin-top: 0;
+    padding-left: 0px;
+    margin-right: 0px;
+    padding-top: 3px;
+    margin-left: 0px;
+    margin-bottom: 1em;
+    background-color: rgb(86, 171, 145);
     
-    width: 9rem;
-    height: 9rem;
-    border-radius: 2rem;
-    box-shadow: 0px 0px 50px #1b4332; 
-    margin: 20px;
+}
+
+.main-nav__item{
+    display: inline-block;
+}
+
+.main-nav__item a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+#formulario{
+    width: 80%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    background-color: #c7f9cc;
+    margin-right: auto;
+    margin-left: auto;  
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 50px #081C15;  
+}
+
+.grupo-lista{
+    text-align: center;
+    background-color: #c7f9cc;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1em;
+    width: 80%;
+    border-radius: 25px;
+    box-shadow: 0px 0px 50px #081C15;
 }
 
 .ingrediente{
@@ -30,23 +68,19 @@ img:hover{
     width: 30%;
 }
 
-#grupo-lista{
-    text-align: center;
-    background-color: #d8f3dc;
-    margin-right: auto;
-    margin-left: auto;
-    width: 80%;
-    border-radius: 25px;
-    box-shadow: 0px 0px 50px #1b4332;
+.ingrediente img{
+    width: 11rem;
+    height: 11rem;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 50px grey; 
+    margin: 20px;  
+}
+.ingrediente img:hover{  
+    width: 9rem;
+    height: 9rem;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 50px grey; 
+    margin: 20px;
 }
 
-#formulario{
-    text-align: center;
-    background-color: #d8f3dc;
-    margin-right: auto;
-    margin-left: auto;  
-    margin-bottom: 20px;
-    border-radius: 12px;
-    box-shadow: 0px 0px 50px #1b4332;
-    padding: 1em;
-}
+
